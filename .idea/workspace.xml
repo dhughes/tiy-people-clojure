@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db2d81ae-0318-4876-a50f-81f213418fd5" name="Default" comment="" />
+    <list default="true" id="db2d81ae-0318-4876-a50f-81f213418fd5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/people_clojure/core.clj" afterPath="$PROJECT_DIR$/src/people_clojure/core.clj" />
+    </list>
     <ignored path="people-clojure.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,24 +31,34 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/people_clojure/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="31" column="17" selection-start-line="29" selection-start-column="7" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="511">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.clj">
+      <file leaf-file-name="people.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/people.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="5417">
+              <caret line="299" column="74" selection-start-line="299" selection-start-column="74" selection-end-line="299" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -71,8 +86,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/people.csv" />
         <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/people.csv" />
         <option value="$PROJECT_DIR$/src/people_clojure/core.clj" />
       </list>
     </option>
@@ -83,8 +99,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="91" />
+    <option name="y" value="215" />
     <option name="width" value="1440" />
     <option name="height" value="802" />
   </component>
@@ -114,31 +138,10 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="people-clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="people-clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="people-clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -155,7 +158,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.2.0/bin/node" />
   </component>
-  <component name="ReplState" timestamp="1464895121923">{:repl-history {:ide [], :local [&quot;(+ 1 1)\n   &quot; &quot;(+ 1 100)\n   &quot; &quot;(foo)&quot; &quot;(foo 1)\n     &quot; &quot;(foo)\n  &quot; &quot;(foo \&quot;Dane\&quot;)\n     &quot; &quot;(foo \&quot;Doug\&quot;)\n     \n     &quot; &quot;(defn headers \&quot;id,first_name,last_name,email,country,ip_address\&quot;)&quot; &quot;(def headers \&quot;id,first_name,last_name,email,country,ip_address\&quot;)&quot; &quot;headers&quot; &quot;(str/split headers #\&quot;,\&quot;)&quot; &quot;(first (str/split headers #\&quot;,\&quot;))&quot; &quot;(rest (str/split headers #\&quot;,\&quot;))&quot; &quot;(map (fn [line]\n       (str/split line #\&quot;,\&quot;))\n     headers)&quot; &quot;(map (fn [line]\n       (str/split line #\&quot;,\&quot;))\n     [headers])&quot; &quot;(def value [1 2 3 4 5])&quot; &quot;value&quot; &quot;(map #(+ 1 %) value)&quot; &quot;(map (fn [val]\n       (+ val 1))\n     value)&quot; &quot;(map (fn [val]\n       (* val 11))\n     value)&quot; &quot;(map (fn [name]\n       (str/reverse name))\n     [\&quot;Doug\&quot;, \&quot;Dan\&quot;, \&quot;Dane\&quot;])&quot; &quot;(map str/reverse) [\&quot;Doug\&quot;, \&quot;Dan\&quot;, \&quot;Dane\&quot;]&quot; &quot;(map str/reverse [\&quot;Doug\&quot;, \&quot;Dan\&quot;, \&quot;Dane\&quot;])&quot; &quot;(zipmap [\&quot;one\&quot; \&quot;two\&quot; \&quot;three\&quot;] [1 2 3])&quot; &quot;\&quot;Brazil\&quot;&quot; &quot;China&quot; &quot;\&quot;Sweden\&quot;&quot; &quot;send-off&quot; &quot;x&quot; &quot;Sweden&quot; &quot;(doc pr-str)\n     &quot; &quot;(doc pr-str)&quot; &quot;toStr ()&quot; &quot;(-main)\n  &quot; &quot;Brazil&quot; &quot;{:name \&quot;Doug\&quot; :age 38}&quot; &quot;({:name \&quot;Doug\&quot; :age 38} :name) &quot; &quot;({:name \&quot;Doug\&quot; :age 38} :height) &quot; &quot;(:height {:name \&quot;Doug\&quot; :age 38}) &quot; &quot;(:height {:name \&quot;Doug\&quot; :age 38} 6) &quot; &quot;(:height {:name \&quot;Doug\&quot; :age 38 :height 5.5} 6) &quot; &quot;(doc reduce)\n     &quot; &quot;(def values [1 2 3 4 5])&quot; &quot;values&quot; &quot;(reduce + values)&quot; &quot;(reduce (fn [x y] (if (&gt; y x) y x) ) values)&quot; &quot;(reduce (fn [x y] (if (&gt; y x) y x) ) [123 7 60000 145 90])&quot; &quot;(defn associate [val key] {key value})&quot; &quot;(defn associate [val key] {key val})&quot; &quot;(associate 0 :a)&quot; &quot;(map-vals 0 [:a :b :c])&quot; &quot;(collect-vals 0 [:a :b :c])&quot; &quot;(into {:name \&quot;Doug\&quot;} ({:a 0} {:b 723}))&quot; &quot;(into {:name \&quot;Doug\&quot;} {:a 0} {:b 723})&quot; &quot;(into {:name \&quot;Doug\&quot;} {:a 0})&quot; &quot;(into {:name \&quot;Doug\&quot;} {:a 0}  {:b 723})&quot; &quot;(into {:name \&quot;Doug\&quot;} [{:a 0}  {:b 723}])&quot; &quot;(into {:name \&quot;Doug\&quot;} ({:a 0}  {:b 723}))&quot; &quot;(into {} [{:a 0}  {:b 723}])&quot; &quot;((fn [val sq]\n  (into {} (map #({% val} seq)))) 0 [:a :b :c]) &quot; &quot;((fn [val sq]\n  (into {} (vector (map #({% val} seq))))) 0 [:a :b :c]) &quot; &quot;(vector (1 2 3))&quot; &quot;(vector '(1 2 3))&quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) seq)))) 0 [:a :b :c] &quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) sq)))) 0 [:a :b :c] &quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) sq))) 0 [:a :b :c]) &quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) sq))) [:a :b :c]) &quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) sq)) [:a :b :c])) &quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) sq) [:a :b :c]))) &quot; &quot;(+ 1 1)&quot; &quot;(read-people)&quot; &quot;(-main)&quot; &quot;(doc atom)&quot; &quot;(doc Atom)\n     &quot; &quot;(doc defonce)\n     &quot; &quot;(doc reset!)\n     &quot; &quot;(def abc \&quot;def\&quot;)&quot; &quot;adc&quot; &quot;abc&quot; &quot;@abc&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1464989121640">{:repl-history {:ide [], :local [&quot;(+ 1 1)\n   &quot; &quot;(+ 1 100)\n   &quot; &quot;(foo)&quot; &quot;(foo 1)\n     &quot; &quot;(foo)\n  &quot; &quot;(foo \&quot;Dane\&quot;)\n     &quot; &quot;(foo \&quot;Doug\&quot;)\n     \n     &quot; &quot;(defn headers \&quot;id,first_name,last_name,email,country,ip_address\&quot;)&quot; &quot;(def headers \&quot;id,first_name,last_name,email,country,ip_address\&quot;)&quot; &quot;headers&quot; &quot;(str/split headers #\&quot;,\&quot;)&quot; &quot;(first (str/split headers #\&quot;,\&quot;))&quot; &quot;(rest (str/split headers #\&quot;,\&quot;))&quot; &quot;(map (fn [line]\n       (str/split line #\&quot;,\&quot;))\n     headers)&quot; &quot;(map (fn [line]\n       (str/split line #\&quot;,\&quot;))\n     [headers])&quot; &quot;(def value [1 2 3 4 5])&quot; &quot;value&quot; &quot;(map #(+ 1 %) value)&quot; &quot;(map (fn [val]\n       (+ val 1))\n     value)&quot; &quot;(map (fn [val]\n       (* val 11))\n     value)&quot; &quot;(map (fn [name]\n       (str/reverse name))\n     [\&quot;Doug\&quot;, \&quot;Dan\&quot;, \&quot;Dane\&quot;])&quot; &quot;(map str/reverse) [\&quot;Doug\&quot;, \&quot;Dan\&quot;, \&quot;Dane\&quot;]&quot; &quot;(map str/reverse [\&quot;Doug\&quot;, \&quot;Dan\&quot;, \&quot;Dane\&quot;])&quot; &quot;(zipmap [\&quot;one\&quot; \&quot;two\&quot; \&quot;three\&quot;] [1 2 3])&quot; &quot;\&quot;Brazil\&quot;&quot; &quot;China&quot; &quot;\&quot;Sweden\&quot;&quot; &quot;send-off&quot; &quot;x&quot; &quot;Sweden&quot; &quot;(doc pr-str)\n     &quot; &quot;(doc pr-str)&quot; &quot;toStr ()&quot; &quot;(-main)\n  &quot; &quot;Brazil&quot; &quot;{:name \&quot;Doug\&quot; :age 38}&quot; &quot;({:name \&quot;Doug\&quot; :age 38} :name) &quot; &quot;({:name \&quot;Doug\&quot; :age 38} :height) &quot; &quot;(:height {:name \&quot;Doug\&quot; :age 38}) &quot; &quot;(:height {:name \&quot;Doug\&quot; :age 38} 6) &quot; &quot;(:height {:name \&quot;Doug\&quot; :age 38 :height 5.5} 6) &quot; &quot;(doc reduce)\n     &quot; &quot;(def values [1 2 3 4 5])&quot; &quot;values&quot; &quot;(reduce + values)&quot; &quot;(reduce (fn [x y] (if (&gt; y x) y x) ) values)&quot; &quot;(reduce (fn [x y] (if (&gt; y x) y x) ) [123 7 60000 145 90])&quot; &quot;(defn associate [val key] {key value})&quot; &quot;(defn associate [val key] {key val})&quot; &quot;(associate 0 :a)&quot; &quot;(map-vals 0 [:a :b :c])&quot; &quot;(collect-vals 0 [:a :b :c])&quot; &quot;(into {:name \&quot;Doug\&quot;} ({:a 0} {:b 723}))&quot; &quot;(into {:name \&quot;Doug\&quot;} {:a 0} {:b 723})&quot; &quot;(into {:name \&quot;Doug\&quot;} {:a 0})&quot; &quot;(into {:name \&quot;Doug\&quot;} {:a 0}  {:b 723})&quot; &quot;(into {:name \&quot;Doug\&quot;} [{:a 0}  {:b 723}])&quot; &quot;(into {:name \&quot;Doug\&quot;} ({:a 0}  {:b 723}))&quot; &quot;(into {} [{:a 0}  {:b 723}])&quot; &quot;((fn [val sq]\n  (into {} (map #({% val} seq)))) 0 [:a :b :c]) &quot; &quot;((fn [val sq]\n  (into {} (vector (map #({% val} seq))))) 0 [:a :b :c]) &quot; &quot;(vector (1 2 3))&quot; &quot;(vector '(1 2 3))&quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) seq)))) 0 [:a :b :c] &quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) sq)))) 0 [:a :b :c] &quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) sq))) 0 [:a :b :c]) &quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) sq))) [:a :b :c]) &quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) sq)) [:a :b :c])) &quot; &quot;((fn [val sq]\n  (into {} (map #({% val}) sq) [:a :b :c]))) &quot; &quot;(+ 1 1)&quot; &quot;(read-people)&quot; &quot;(-main)&quot; &quot;(doc atom)&quot; &quot;(doc Atom)\n     &quot; &quot;(doc defonce)\n     &quot; &quot;(doc reset!)\n     &quot; &quot;(def abc \&quot;def\&quot;)&quot; &quot;adc&quot; &quot;abc&quot; &quot;@abc&quot; &quot;((comp rest first) [1 2 3 4 5])&quot; &quot;((comp first rest) [1 2 3 4 5])&quot; &quot;((comp + * ) 1 2 3 4 5)&quot; &quot;(* 1 2 3 4 5)&quot; &quot;((comp * + ) 1 2 3 4 5)&quot; &quot;(comp int *)&quot; &quot;(doc int)&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.REPL for people-clojure">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -619,6 +622,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="db2d81ae-0318-4876-a50f-81f213418fd5" name="Default" comment="" />
@@ -628,15 +634,17 @@
       <updated>1464787036275</updated>
       <workItem from="1464787037707" duration="9963000" />
       <workItem from="1464872800406" duration="11355000" />
+      <workItem from="1464895208967" duration="1840000" />
+      <workItem from="1464957530159" duration="15029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21318000" />
+    <option name="totallyTimeSpent" value="38187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="802" extended-state="0" />
-    <editor active="false" />
+    <frame x="91" y="215" width="1440" height="802" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -645,16 +653,15 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36409155" sideWeight="0.5162037" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22961374" sideWeight="0.5162037" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.4837963" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19098713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19098713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -665,6 +672,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -673,7 +681,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.227349" sideWeight="0.5162037" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3855508" sideWeight="0.5162037" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.4837963" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -691,10 +699,18 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19127516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19098713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -724,6 +740,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/people_clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/people_clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="47" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="47" />
           <folding />
@@ -742,7 +790,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -756,7 +803,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -770,7 +816,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="66">
             <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -781,18 +826,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sweden.edm" />
     <entry file="file://$PROJECT_DIR$/Brazil.edm" />
-    <entry file="file://$PROJECT_DIR$/people.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/compojure/compojure/1.5.0/compojure-1.5.0.jar!/compojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ring/ring-jetty-adapter/1.4.0/ring-jetty-adapter-1.4.0.jar!/ring/adapter/jetty.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -804,18 +848,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ring/ring-jetty-adapter/1.4.0/ring-jetty-adapter-1.4.0.jar!/ring/adapter/jetty.clj">
+    <entry file="file://$PROJECT_DIR$/src/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+        <state relative-caret-position="286">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/people.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5417">
+          <caret line="299" column="74" selection-start-line="299" selection-start-column="74" selection-end-line="299" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/people_clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="31" column="17" selection-start-line="29" selection-start-column="7" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="511">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>

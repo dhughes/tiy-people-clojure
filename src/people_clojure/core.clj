@@ -31,12 +31,16 @@
              [:li (str (get person "first_name") " " (get person "last_name"))])
            people)]))
 
+(defn country-links []
+  (let [
+        countries (set (map #(get % "country") (read-people)))]
+    [:div (map (fn [country] [:span [:a {:href (str "/" country)} country] " "]) countries)]))
+
 (c/defroutes app
              (c/GET "/:country{.*}" [country]
                (h/html [:html
                         [:body
-                         [:a {:href "http://theironyard.com"} "The iron yard"]
-                         [:br]
+                         (country-links)
                          (people-html country)]])))
 
 
